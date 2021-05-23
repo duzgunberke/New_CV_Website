@@ -348,6 +348,7 @@
     <Content Include="Dosyalar\img\Csharp_Logo.png" />
     <Content Include="Dosyalar\img\css.png" />
     <Content Include="Dosyalar\img\html.png" />
+    <Content Include="Dosyalar\img\IMG_20210523_161821 %281%29.jpg" />
     <Content Include="Dosyalar\img\js.png" />
     <Content Include="Dosyalar\img\phy.png" />
     <Content Include="Dosyalar\img\profile.jpg" />
@@ -1748,11 +1749,17 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.min.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="GirişCss.css" />
     <Content Include="Hakkımda.aspx" />
     <Content Include="HobiEkle.aspx" />
     <Content Include="HobiGuncelle.aspx" />
     <Content Include="HobiListesi.aspx" />
     <Content Include="HobiSil.aspx" />
+    <Content Include="KonferansEkle.aspx" />
+    <Content Include="KonferansGuncelle.aspx" />
+    <Content Include="KonferansListesi.aspx" />
+    <Content Include="KonferansSil.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
     <Content Include="YetenekEkle.aspx" />
     <Content Include="YetenekGuncelle.aspx" />
@@ -1869,6 +1876,41 @@
     </Compile>
     <Compile Include="HobiSil.aspx.designer.cs">
       <DependentUpon>HobiSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KonferansEkle.aspx.cs">
+      <DependentUpon>KonferansEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KonferansEkle.aspx.designer.cs">
+      <DependentUpon>KonferansEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KonferansGuncelle.aspx.cs">
+      <DependentUpon>KonferansGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KonferansGuncelle.aspx.designer.cs">
+      <DependentUpon>KonferansGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KonferansListesi.aspx.cs">
+      <DependentUpon>KonferansListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KonferansListesi.aspx.designer.cs">
+      <DependentUpon>KonferansListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KonferansSil.aspx.cs">
+      <DependentUpon>KonferansSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KonferansSil.aspx.designer.cs">
+      <DependentUpon>KonferansSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="YetenekEkle.aspx.cs">

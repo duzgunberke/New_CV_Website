@@ -24,14 +24,18 @@
 
     <link href="Dosyalar/css/resume.min.css" rel="stylesheet" />
 </head>
-
+    
 <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark   fixed-top" id="sideNav" style="background-color:#333333">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">CV Profili</span>
             <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="Dosyalar/img/profile.jpg" alt="">
+                <asp:Repeater ID="Repeater7" runat="server">
+                    <ItemTemplate>
+                             <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="Dosyalar/img/IMG_20210523_161821%20(1).jpg" alt="" />
+                    </ItemTemplate> 
+                </asp:Repeater>
             </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

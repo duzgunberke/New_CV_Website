@@ -34,6 +34,10 @@ namespace CvType2
             DataSet1TableAdapters.TBL_DIGERTableAdapter dt6 = new DataSet1TableAdapters.TBL_DIGERTableAdapter();
             Repeater6.DataSource = dt6.DigerListele();
             Repeater6.DataBind();
+
+            DataSet1TableAdapters.TBL_HAKKIMDATableAdapter dt7 = new DataSet1TableAdapters.TBL_HAKKIMDATableAdapter();
+            Repeater7.DataSource = dt7.HakkımdaListele();
+            Repeater7.DataBind();
         }
     }
 }
